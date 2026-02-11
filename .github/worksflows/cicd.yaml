@@ -2,7 +2,8 @@ name: build-push-deploy
 
 on:
   push:
-    branches: [ "master" ]
+    branches: 
+      - master
 
 jobs:
   build_push_deploy:
